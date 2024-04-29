@@ -1,0 +1,25 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    width: 100%;
+
+}
+
+.products-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container{
+    display: grid;
+    align-content: center;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+}
